@@ -9,3 +9,8 @@ I wish this was available when I was doing the umbilical set up for my Voron 2.4
 The PG7 cable gland is a tight fit, so be sure to print this part using the recommend Voron print settings.
 
 P.S. This design probably needs to be updated a bit to allow for better wire management from the switch to the area where the PG7 gland is...
+
+
+![Front top view](./Images/image1.png)
+
+![Bottom back view](./Images/image2.png)
