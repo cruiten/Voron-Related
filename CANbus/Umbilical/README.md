@@ -14,3 +14,14 @@ P.S. This design probably needs to be updated a bit to allow for better wire man
 ![Front top view](./Images/image1.png)
 
 ![Bottom back view](./Images/image2.png)
+</details>
+
+# Umbilical mount for Clockwork 2 - Skinny Y version
+## Why?
+Modified hartk's version so that it would not crash into the Z-chains and the umbilical gland mounted on the A-motor plate during homing.
+
+![Side view](./Images/SkinnyY-side.png)
+
+![Side view](./Images/SkinnyY-top.png)
+
+![Comparison](./Images/comparison.jpeg)
