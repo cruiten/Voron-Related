@@ -12,6 +12,6 @@ This simple mount for the Mellow UTOC-1 (or UTOC-3) CAN adapter incorporates a m
 |Fuse| 1 |I used 5A fuse for 24V power to CAN board|
 |DIN Clip|1|https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Electronics_Bay/pcb_din_clip_x3.stl|
 
-![Mount with fuse holder and bracket](./Images/MountWithFuse.png)
+<img src="./Images/MountWithFuse.png" width="50%" height="50%" alt="Mount with fuse holder and bracket"/>
 
-![Fuse holder with fuse](./Images/FuseHolder.png)
+<img src="./Images/FuseHolder.png" width="50%" height="50%" alt="Fuse holder with fuse"/>
