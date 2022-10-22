@@ -10,18 +10,18 @@ The PG7 cable gland is a tight fit, so be sure to print this part using the reco
 
 P.S. This design probably needs to be updated a bit to allow for better wire management from the switch to the area where the PG7 gland is...
 
+<img src="./Images/image1.png" width="50%" height="50%" alt="Front top view"/>
 
-![Front top view](./Images/image1.png)
+<img src="./Images/image2.png" width="50%" height="50%" alt="Bottom back view"/>
 
-![Bottom back view](./Images/image2.png)
 </details>
 
 # Umbilical mount for Clockwork 2 - Skinny Y version
 ## Why?
 Modified hartk's version so that it would not crash into the Z-chains and the umbilical gland mounted on the A-motor plate during homing.
 
-![Side view](./Images/SkinnyY-side.png)
+<img src="./Images/SkinnyY-side.png" width="50%" height="50%" alt="Side view"/>
 
-![Side view](./Images/SkinnyY-top.png)
+<img src="./Images/SkinnyY-top.png" width="50%" height="50%" alt="Side view"/>
 
-![Comparison](./Images/comparison.jpeg)
+<img src="./Images/comparison.jpeg" width="50%" height="50%" alt="Comparison"/>
