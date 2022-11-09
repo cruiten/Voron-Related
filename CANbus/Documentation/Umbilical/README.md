@@ -20,12 +20,11 @@ After implementing the Mellow Fly SB2040, I decided to implement an umbilical be
 
 ### Move the Y endstop
 - This was more involved than I expected
-- I used hartk's modified A motor top plate
-  - https://github.com/hartk1213/VoronUsers/blob/master/printer_mods/hartk1213/Voron2.4_Y_Endstop_Relocation/STLs/Gantry/AB_Drive_Units/a_drive_frame_upper_with_jst_y_endstop.stl
+- I used [hartk's modified A motor top plate](https://github.com/hartk1213/VoronUsers/blob/master/printer_mods/hartk1213/Voron2.4_Y_Endstop_Relocation/STLs/Gantry/AB_Drive_Units/a_drive_frame_upper_with_jst_y_endstop.stl)
   - This was very involved and took some time since I had to replace it on a completed printer
   - In hindsight, if I had to do it again, I would probably use one of the following two solutions, so that I would not have to swap the entire top A motor mount:
-    - https://github.com/cruiten/Voron-Related/blob/main/CANbus/Umbilical/STLs/a_drive_umbilical_pg7_y_endstop.stl
-    - https://github.com/Minsekt/moronvods/blob/main/Rear_Umbilical/Y_Endstop_Relocation/STL/y_endstop.stl
+    - [Option 1](https://github.com/cruiten/Voron-Related/blob/main/CANbus/Umbilical/STLs/a_drive_umbilical_pg7_y_endstop.stl)
+    - [Option 2](https://github.com/Minsekt/moronvods/blob/main/Rear_Umbilical/Y_Endstop_Relocation/STL/y_endstop.stl)
     
     
 ### Remove the X and Y drag chains
@@ -39,10 +38,9 @@ After implementing the Mellow Fly SB2040, I decided to implement an umbilical be
 
 <img src="./Images/IMG_0823.jpg" width="40%" height="40%" alt="Toolhead Mount"/>
 
-- For the toolhead mount I printed this: https://github.com/hartk1213/MISC/blob/main/Voron%20Mods/Voron%202/2.4/CW2_SB2040_CAN_Umbilical/STLs/cw2_umbPG7_skinnyy.stl
+- For the toolhead mount I printed [this](https://github.com/hartk1213/MISC/blob/main/Voron%20Mods/Voron%202/2.4/CW2_SB2040_CAN_Umbilical/STLs/cw2_umbPG7_skinnyy.stl)
   - I needed the "skinny" version, because the original version was interfering with the Z drag chain and the PG7 gland on top of the A motor plate
-- I purchased a four-pin M12 Aviation connector and mounted the female socket on the toolhead mount
-  -   https://www.amazon.com/dp/B087MZYG37?psc=1&ref=ppx_yo2ov_dt_b_product_details
+- I purchased a [four-pin M12 Aviation connector](https://www.amazon.com/dp/B087MZYG37?psc=1&ref=ppx_yo2ov_dt_b_product_details) and mounted the female socket on the toolhead mount
 - I used the original connector and wiring that came with the SB2040
   - I shortened the wiring and soldered the wires to the female M12 Aviation connector
 
@@ -51,19 +49,19 @@ After implementing the Mellow Fly SB2040, I decided to implement an umbilical be
 
 The other side of the umbilical is connected to a PG7 gland that is mounted on top of the A motor mount.
 
-- For this mount I printed this: https://github.com/cruiten/MISC/blob/main/Voron%20Mods/Voron%202/2.4/CW2_SB2040_CAN_Umbilical/STLs/v2_a_drive_pg7_umbilical.stl
+- For this mount I printed [this](https://github.com/cruiten/MISC/blob/main/Voron%20Mods/Voron%202/2.4/CW2_SB2040_CAN_Umbilical/STLs/v2_a_drive_pg7_umbilical.stl)
   - I had to modify hartk's original design because the Ti backer plate mounted on the back of my X-axis interfered with the printed part
   - I created a pull request (PR) to hartk, but as of today hartk has not reviewed that PR so that is why this is not on hartk's github
-- I mounted this PG7 gland on the mount: https://www.amazon.com/gp/product/B09GV9Q79C/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+- I mounted this [PG7 gland](https://www.amazon.com/gp/product/B09GV9Q79C/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) on the mount
 
 
 
 ### Umbilical Cable
 I used the following parts to build my umbilical cable:
-- Aforementioned 4-pin M12 aviation connector: https://www.amazon.com/dp/B087MZYG37?psc=1&ref=ppx_yo2ov_dt_b_product_details
-- IGUS CF77-UL-05-04-D: https://www.igus.com/product/994?artNr=CF77-UL-05-04-D
-- Titan Rig MDPC-X Medium cable sleeving: https://www.cable-sleeving.com/cable-sleeving-m
-- Molex Micro-Fit 3.0 dual row connector: https://www.amazon.com/dp/B078Q798L9?psc=1&ref=ppx_yo2ov_dt_b_product_details
+- Aforementioned [4-pin M12 aviation connector](https://www.amazon.com/dp/B087MZYG37?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+- [IGUS CF77-UL-05-04-D](https://www.igus.com/product/994?artNr=CF77-UL-05-04-D)
+- Titan Rig [MDPC-X Medium cable sleeving](https://www.cable-sleeving.com/cable-sleeving-m)
+- [Molex Micro-Fit 3.0 dual row connector](https://www.amazon.com/dp/B078Q798L9?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 - Large shrink wrap from my local hardware store
 
 I soldered the wires from one end of the umbilical to the male M12 aviation connector, and I connected the Molex Micro-Fit 3.0 connector to the other end of the umbilical below the PG7 gland that is mounted on top of the A motor.
