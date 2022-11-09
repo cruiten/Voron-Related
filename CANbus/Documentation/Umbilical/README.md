@@ -29,7 +29,23 @@ After implementing the Mellow Fly SB2040, I decided to implement an umbilical be
 - I actually ended up replacing my Z drag chain with one of the removed drag chains since they are "skinnier" than the Z drag chain, and with CAN bus there are far fewer wires...
 
 ### Umbilical Mounts
-- For the toolhead mount I used this: https://github.com/hartk1213/MISC/blob/main/Voron%20Mods/Voron%202/2.4/CW2_SB2040_CAN_Umbilical/STLs/cw2_umbPG7_skinnyy.stl
+**Toolhead Mount**
+
+<img src="./Images/IMG_0823.jpg" width="40%" height="40%" alt="Toolhead Mount"/>
+
+- For the toolhead mount I printed this: https://github.com/hartk1213/MISC/blob/main/Voron%20Mods/Voron%202/2.4/CW2_SB2040_CAN_Umbilical/STLs/cw2_umbPG7_skinnyy.stl
   - I needed the "skinny" version, because the original version was interfering with the Z drag chain and the PG7 gland on top of the A motor plate
-- I used an M12 Aviation connector and mounted the female socket on the toolhead mount
-- 
+- I purchased a four-pin M12 Aviation connector and mounted the female socket on the toolhead mount
+  -   https://www.amazon.com/dp/B087MZYG37?psc=1&ref=ppx_yo2ov_dt_b_product_details
+- I used the original connector and wiring that came with the SB2040
+  - I shortened the wiring and soldered the wires to the female M12 Aviation connector
+
+
+**A Motor Mount**
+
+The other side of the umbilical is connected to a PG7 gland that is mounted on top of the A motor mount.
+
+- For this mount I printed this: https://github.com/cruiten/MISC/blob/main/Voron%20Mods/Voron%202/2.4/CW2_SB2040_CAN_Umbilical/STLs/v2_a_drive_pg7_umbilical.stl
+  - I had to modify hartk's original design because the Ti backer plate mounted on the back of my X-axis interfered with the printed part
+  - I created a pull request (PR) to hartk, but as of today he has not reviewed that PR so that is why this is not on hartk's github
+
