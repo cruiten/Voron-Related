@@ -66,9 +66,9 @@ I used the following parts to build my umbilical cable:
 - Molex Micro-Fit 3.0 dual row connector: https://www.amazon.com/dp/B078Q798L9?psc=1&ref=ppx_yo2ov_dt_b_product_details
 - Large shrink wrap from my local hardware store
 
-I soldered the male M12 aviation connector to one end of the umbilical, and I connected the Molex connector to the other end of the umbilical underneath the PG7 gland that is mounted on top of the A motor.
+I soldered the wires from one end of the umbilical to the male M12 aviation connector, and I connected the Molex Micro-Fit 3.0 connector to the other end of the umbilical below the PG7 gland that is mounted on top of the A motor.
 
-I finished it off with the large shrink wrap to make it look nice and tidy.
+I finished it off with large shrink wrap to make the ends look nice and tidy.
 
 The IGUS cable is nice and rigid and supports the umbilical cable very well in my Voron 2.4r2 300x300 printer.
 
@@ -76,8 +76,8 @@ The IGUS cable is nice and rigid and supports the umbilical cable very well in m
 ### Hooking it all up
 The only thing left to do was to get some PTFE wires and connect those to the umbilical cable's Molex Micro-Fit 3.0 connector and route them through the Z drag chain and connect them to my Mellow Fly UTOC-1.
 
-- I used two 24 gauge PTFE wires for the CAN bus H and L wires, and I did twist these two wires around each other
-- I used two 20 gauge PTFE wires for the CAN bus 24V and GND wires, and I did not twist these two wires around each other
+- I used two 24 gauge PTFE wires for the CAN bus H and L wires (I twisted these two wires around each other)
+- I used two 20 gauge PTFE wires for the CAN bus 24V and GND wires (I did not twist these two wires around each other)
 
 Here is a wiring diagram of how I connected the SB2040 to the UTOC-1:
 
