@@ -17,6 +17,7 @@ After implementing the Mellow Fly SB2040, I decided to implement an umbilical be
 - This was very easy to do since the Voron 2.4r2 X-carriage already has a spot to mount the switch.
 - Connected the X endstop switch wires to the gpio29 enstop connection on the SB2040
 
+
 ### Move the Y endstop
 - This was more involved than I expected
 - I used hartk's modified A motor top plate
@@ -25,6 +26,7 @@ After implementing the Mellow Fly SB2040, I decided to implement an umbilical be
   - In hindsight, if I had to do it again, I would probably use one of the following two solutions, so that I would not have to swap the entire top A motor mount:
     - https://github.com/cruiten/Voron-Related/blob/main/CANbus/Umbilical/STLs/a_drive_umbilical_pg7_y_endstop.stl
     - https://github.com/Minsekt/moronvods/blob/main/Rear_Umbilical/Y_Endstop_Relocation/STL/y_endstop.stl
+    
     
 ### Remove the X and Y drag chains
 - Felt good to remove these
