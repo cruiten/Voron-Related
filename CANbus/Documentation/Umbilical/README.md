@@ -69,3 +69,8 @@ I finished it off with the large shrink wrap to make it look nice and tidy.
 The IGUS cable is nice and rigid and supports the umbilical cable very well in my Voron 2.4r2 300x300 printer.
 
 
+### Hooking it all up
+The only thing left to do was to get some PTFE wires and connect those to the umbilical cable's Molex Micro-Fit 3.0 connector and route them through the Z drag chain and connect them to my Mellow Fly UTOC-1.
+
+- I used two 24 gauge PTFE wires for the CAN bus H and L wires, and I did twist these two wires around each other
+- I used two 20 gauge PTFE wires for the CAN bus 24V and GND wires, and I did not twist these two wires around each other
