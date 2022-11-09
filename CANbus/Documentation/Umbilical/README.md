@@ -28,6 +28,8 @@ After implementing the Mellow Fly SB2040, I decided to implement an umbilical be
 - Felt good to remove these
 - I actually ended up replacing my Z drag chain with one of the removed drag chains since they are "skinnier" than the Z drag chain, and with CAN bus there are far fewer wires...
 
+
+
 ### Umbilical Mounts
 **Toolhead Mount**
 
@@ -47,5 +49,23 @@ The other side of the umbilical is connected to a PG7 gland that is mounted on t
 
 - For this mount I printed this: https://github.com/cruiten/MISC/blob/main/Voron%20Mods/Voron%202/2.4/CW2_SB2040_CAN_Umbilical/STLs/v2_a_drive_pg7_umbilical.stl
   - I had to modify hartk's original design because the Ti backer plate mounted on the back of my X-axis interfered with the printed part
-  - I created a pull request (PR) to hartk, but as of today he has not reviewed that PR so that is why this is not on hartk's github
+  - I created a pull request (PR) to hartk, but as of today hartk has not reviewed that PR so that is why this is not on hartk's github
+- I mounted this PG7 gland on the mount: https://www.amazon.com/gp/product/B09GV9Q79C/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+
+
+
+### Umbilical Cable
+I used the following parts to build my umbilical cable:
+- Aforementioned 4-pin M12 aviation connector: https://www.amazon.com/dp/B087MZYG37?psc=1&ref=ppx_yo2ov_dt_b_product_details
+- IGUS CF77-UL-05-04-D: https://www.igus.com/product/994?artNr=CF77-UL-05-04-D
+- Titan Rig MDPC-X Medium cable sleeving: https://www.cable-sleeving.com/cable-sleeving-m
+- Molex Micro-Fit 3.0 dual row connector: https://www.amazon.com/dp/B078Q798L9?psc=1&ref=ppx_yo2ov_dt_b_product_details
+- Large shrink wrap from my local hardware store
+
+I soldered the male M12 aviation connector to one end of the umbilical, and I connected the Molex connector to the other end of the umbilical underneath the PG7 gland that is mounted on top of the A motor.
+
+I finished it off with the large shrink wrap to make it look nice and tidy.
+
+The IGUS cable is nice and rigid and supports the umbilical cable very well in my Voron 2.4r2 300x300 printer.
+
 
