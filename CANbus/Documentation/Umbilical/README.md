@@ -15,7 +15,7 @@ After implementing the Mellow Fly SB2040, I decided to implement an umbilical be
 
 ### Move the X endstop
 - This was very easy to do since the Voron 2.4r2 X-carriage already has a spot to mount the switch.
-- Connected the X endstop switch wires to the gpio29 enstop connection on the SB2040
+- Connected the X endstop switch wires to the ```gpio29``` endstop connector on the SB2040
 
 
 ### Move the Y endstop
