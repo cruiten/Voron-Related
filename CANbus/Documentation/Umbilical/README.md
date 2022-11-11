@@ -49,9 +49,8 @@ After implementing the Mellow Fly SB2040, I decided to implement an umbilical be
 
 The other side of the umbilical is connected to a PG7 gland that is mounted on top of the A motor mount.
 
-- For this mount I printed [v2_a_drive_pg7_umbilical.stl](https://github.com/cruiten/MISC/blob/main/Voron%20Mods/Voron%202/2.4/CW2_SB2040_CAN_Umbilical/STLs/v2_a_drive_pg7_umbilical.stl)
-  - I had to modify hartk's original design because the Ti backer plate mounted on the back of my X-axis interfered with the printed part
-  - I created a pull request (PR) to hartk, but as of today hartk has not reviewed that PR so that is why this is not on hartk's github
+- For this mount I printed [v2_a_drive_pg7_umbilical.stl](https://github.com/hartk1213/MISC/blob/main/Voron%20Mods/Voron%202/2.4/CW2_SB2040_CAN_Umbilical/STLs/v2_a_drive_pg7_umbilical.stl)
+  - This is the updated STL that addresses the interference issue between the Ti backer plate mounted on the back of my X-axis
 - I mounted this [PG7 gland](https://www.amazon.com/gp/product/B09GV9Q79C/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) on the mount
 
 
