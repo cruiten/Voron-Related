@@ -1,15 +1,18 @@
 # Setting up the SB2040 + CAN on my RPi 4B
 
 ### Steps I performed:
- - Build Klipper firmware for SB2040
+ - [Build Klipper firmware for SB2040](#Build Klipper firmware for SB2040)
 	 - I use a UTOC-1, I don't use my Octopus as a CAN Bridge...
 	 - Please be aware that CAN Boot is not part of these notes
 	 - However, I added CAN Boot on the SB2040 at a later date...
- - Burn Klipper firmware on SB2040
- - Configure CAN networking on the RPi
- - Update Klipper printer configuration
+ - [Burn Klipper firmware on SB2040](#Burn Klipper firmware on SB2040)
+ - [Configure CAN networking on the RPi](#Connect SB2040 and establish/configure CAN network)
+ - [Update Klipper printer configuration](#Update Klipper printer configuration)
 ----
 #### Build Klipper firmware for SB2040
+
+Test
+
 -   These steps are based on information from [Mellow Flash SB2040 Documentation](http://mellow.klipper.cn/?spm=a2g0o.detail.1000023.17.1c827885mk7TEM#/board/fly_sb2040/flash)
 -   Turn on RPi and SSH into the RPi
 -   Change directories to the klipper directory:
@@ -25,7 +28,7 @@
 		```
 		- Screenshot of the settings I used: 
 			<img src="./images/KlipperSB2040BuildSettings.png" width="75%" height="75%" alt="Printer"/>
- 
+
 	- Second, build the Klipper for the SB2040
 		```sh
 		make -j4
@@ -88,7 +91,7 @@ Second, define CAN network:
 	 up ifconfig $IFACE txqueuelen 1024
 	 pre-up ip link set can0 type can bitrate 1000000
 	 pre-up ip link set can0 txqueuelen 1024
-	 ```
+	```
 	 If you used `vi` then save the file by hitting the `Escape` key, followed by `:wq`, followed by the `return` key.
 - Safely restart the printer
 	
