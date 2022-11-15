@@ -25,15 +25,15 @@ Well, with CanBoot, just have to do steps 7 and 8...
 
 ### Steps:
 
-[Clone the CanBoot git repository](#Clone the CanBoot git repository)
+[Clone the CanBoot git repository](#clone-the-canboot-git-repository)
 
-[Build the CanBoot bootloader](#Build the CanBoot bootloader)
+[Build the CanBoot bootloader](#build-the-canboot-bootloader)
 
-[Flash CanBoot on the SB2040](#Flash CanBoot on the SB2040)
+[Flash CanBoot on the SB2040](#flash-canboot-on-the-sb2040)
 
-[Build Klipper for the SB2040](#Build Klipper for the SB2040)
+[Build Klipper for the SB2040](#build-klipper-for-the-sb2040)
 
-[Flash Klipper to the SB2040](#Flash Klipper to the SB2040)
+[Flash Klipper to the SB2040](#flash-klipper-to-the-sb2040)
 
 
 
@@ -72,7 +72,7 @@ Well, with CanBoot, just have to do steps 7 and 8...
 
   - Please note that my CAN network is configured with bus speed set to 1000000
 
-  - ![CanBootMakeMenuconfig](/Users/corruiten/Documents/GitHub/Voron-Related/CANbus/Documentation/SB2040_CAN/images/CanBootMakeMenuconfig.png)
+  - ![CanBootMakeMenuconfig](./images/CanBootMakeMenuconfig.png)
 
 - When done, type `Q` and `Y` to save the updated configuration
 
@@ -116,7 +116,7 @@ Well, with CanBoot, just have to do steps 7 and 8...
 
   If all went well, then you should see something like this:
   
-  ![CanBootFlash](/Users/corruiten/Documents/GitHub/Voron-Related/CANbus/Documentation/SB2040_CAN/images/CanBootFlash.png)
+  ![CanBootFlash](./images/CanBootFlash.png)
   
 - If the SB2040 was successfully flashed with CanBoot:
 
@@ -154,7 +154,7 @@ This is accomplished by assigning a value to the `Bootloader offset`.
 
   - Please note the updated `Bootloader offset` setting
 
-  ![CanBootMakeMenuconfigKlipper](/Users/corruiten/Documents/GitHub/Voron-Related/CANbus/Documentation/SB2040_CAN/images/CanBootMakeMenuconfigKlipper.png)
+  ![CanBootMakeMenuconfigKlipper](./images/CanBootMakeMenuconfigKlipper.png)
 
 - When done, type `Q` and `Y` to save the updated configuration
 
@@ -194,7 +194,7 @@ This is accomplished by assigning a value to the `Bootloader offset`.
   ```
 
 - If all went well, then you should see something like this:		
-	<img src="/Users/corruiten/Documents/GitHub/Voron-Related/CANbus/Documentation/SB2040_CAN/images/CanBootKlipperFlash.png" alt="CanBootKlipperFlash"  />	
+	<img src="./images/CanBootKlipperFlash.png" alt="CanBootKlipperFlash"  />	
 	
 - Restart Klipper by executing the following command:
 	
