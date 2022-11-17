@@ -59,6 +59,7 @@ The other side of the umbilical is connected to a PG7 gland that is mounted on t
 I used the following parts to build my umbilical cable:
 - Aforementioned [4-pin M12 aviation connector](https://www.amazon.com/dp/B087MZYG37?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 - IGUS [CF77-UL-05-04-D](https://www.igus.com/product/994?artNr=CF77-UL-05-04-D)
+  - Exposed length of the umbilical is approximately 58 cm; however, make sure to cut it longer to give yourself enough room for the connectors on both ends.
 - Titan Rig [MDPC-X Medium cable sleeving](https://www.cable-sleeving.com/cable-sleeving-m)
 - Molex [Micro-Fit 3.0 dual row connector](https://www.amazon.com/dp/B078Q798L9?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 - Large shrink wrap from my local hardware store
