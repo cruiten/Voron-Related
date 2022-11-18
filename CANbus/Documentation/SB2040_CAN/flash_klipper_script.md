@@ -19,11 +19,15 @@ Please be aware that this script references the IDs of my Octopus and SB2040 MCU
 - SSH into your RPi
 - Execute the following command:
 
-​		`cd ~/klipper`
+   ```sh
+   cd ~/klipper
+   ```
 
 - Now use your favorite editor to create a new script file called `flashboards.sh` (I am using the `vi` editor)
 
-​		`vi flashboards.sh`
+   ```sh
+   vi flashboards.sh
+   ```
 
 - I entered the following text:
 
@@ -70,11 +74,15 @@ Please be aware that this script references the IDs of my Octopus and SB2040 MCU
 
 - Execute the following command to allow execution of this file:
 
-​		`sudo chmod +x flashboards.sh`
+   ```sh
+   sudo chmod +x flashboards.sh
+   ```
 
 - You invoke the script by typing the following command:
 
-​		`~/klipper/flashboards.sh`
+   ```sh
+   ~/klipper/flashboards.sh
+   ```
 
 
 
