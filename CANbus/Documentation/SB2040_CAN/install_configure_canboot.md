@@ -73,6 +73,7 @@ Well, with CanBoot, just have to do steps 7 and 8...
   - Please note that my CAN network is configured with bus speed set to 1000000
 
   - ![CanBootMakeMenuconfig](./images/CanBootMakeMenuconfig.png)
+  - (**UPDATE**: Changed menu selections from how I did this originally so that the blue LED next to the boot button on the SB2040 will flash after a successful CanBoot flash, to distinguish from a successful Klipper flash where the blue LED remains lit.)
 
 - When done, type `Q` and `Y` to save the updated configuration
 
@@ -124,6 +125,7 @@ Well, with CanBoot, just have to do steps 7 and 8...
   - Safely power down the printer
   - Reconnect the CAN cables to the SB2040
   - Turn on the printer
+  - The blue LED next to the boot button on the SB2040 should be flashing
 
 
 
