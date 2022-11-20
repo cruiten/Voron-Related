@@ -81,7 +81,7 @@ Second, define CAN network:
 	- Queue length set to `1024`
 -   Define  the CAN network (I used `vi`, but you can you can use your favorite editor)
 	```sh
-	sudo vi /etc/network/interfaces.d/can.0
+	sudo vi /etc/network/interfaces.d/can0
 	```
 	Type in the following text:
 	```sh
