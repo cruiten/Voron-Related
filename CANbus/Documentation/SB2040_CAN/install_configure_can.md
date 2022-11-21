@@ -94,6 +94,10 @@ Second, define CAN network:
 	```
 	 If you used `vi` then save the file by hitting the `Escape` key, followed by `:wq`, followed by the `return` key.
 - Safely restart the printer
+
+**NOTE**: Please remember that in order for the CAN network to be visible on the RPi, it must have at least one connected CAN node. In my case that requirement is fulfilled by connecting the UTOC-1 to the RPi with a USB-C cable.
+
+Good command to see CAN network details: `ip -details -statistics link show can0`
 	
 ---
 #### Update Klipper printer configuration
