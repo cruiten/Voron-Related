@@ -1,5 +1,7 @@
 # Setting up the SB2040 + CanBoot on my RPi 4B
 
+[[Back to table of contents]](../README.md)
+
 ### CanBoot? Why?
 
 You don't "need" CanBoot...  In my opinion, it is purely a "quality of life" thing... 
@@ -196,12 +198,17 @@ This is accomplished by assigning a value to the `Bootloader offset`.
   ```
 
 - If all went well, then you should see something like this:		
-	<img src="./images/CanBootKlipperFlash.png" alt="CanBootKlipperFlash"  />	
+	<img src="./images/CanBootKlipperFlash.png" alt="CanBootKlipperFlash"  />
+	
+	- Please note that when the `flash_can.py` script sent the bootloader jump command on the CAN bus, we see the UUIDs for all the CAN nodes on the CAN bus. For my CAN bus that UUID is `d063055012c2`, but your UUID will be different.
+	
+	  
 	
 - Restart Klipper by executing the following command:
-	
-	```sh
-	sudo service klipper start
-	```
-	
-	
+
+  ```sh
+  sudo service klipper start
+  ```
+
+
+[[Back to table of contents]](../README.md)	

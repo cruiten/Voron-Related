@@ -1,5 +1,7 @@
 # Setting up the SB2040 + CAN on my RPi 4B
 
+[[Back to table of contents]](../README.md)
+
 ### Steps I performed:
  - [Build Klipper firmware for SB2040](#Build Klipper firmware for SB2040)
 	 - I use a UTOC-1, I don't use my Octopus as a CAN Bridge...
@@ -199,3 +201,4 @@ I used Mainsail to update my `printer.cfg` configuration file.
 
 Enjoy!
 
+[[Back to table of contents]](../README.md)
