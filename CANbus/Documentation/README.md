@@ -14,8 +14,6 @@ Personal notes to document what I did on my Voron 2.4r2...
 
 &nbsp;
 
-&nbsp;
-
 ### Quality of life improvements:
 
 [Flash Klipper to the Octopus and the SB2040 in one step](./SB2040_CAN/flash_klipper_script.md)
