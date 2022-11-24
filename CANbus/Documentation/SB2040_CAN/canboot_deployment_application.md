@@ -8,7 +8,7 @@
 >
 > --Kevin O'Connor
 
-
+&nbsp;
 
 ### Steps I performed:
 
@@ -114,3 +114,6 @@ Please be aware that Klipper will not be able to connect with the SB2040 CAN too
 
 To reset the SB2040 so that it is available to Klipper, you will have to use CanBoot to build and flash Klipper firmware to the SB2040. You can do that by starting following these steps [here](./install_configure_canboot.md/#Build Klipper for the SB2040).
 
+&nbsp;
+
+[[Back to table of contents]](../README.md)
