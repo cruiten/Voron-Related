@@ -47,7 +47,7 @@
 
 - If all went well, then you will see something like this:
 
-  ​	<img src="./images/CanBootDeploymentMakeResult.png" style="zoom:50%;" />
+  ​	<img src="./images/CanBootDeploymentMakeResult.png" style="zoom:25%;" />
 
   - As you can see, this creates three files: `out/canboot.bin`, `out/canboot.uf2`, and `out/deployer.bin` which is the CanBoot Deployment Application
   
@@ -93,7 +93,7 @@
   python3 flash_can.py -i can0 -q
   ```
 
-  ![](./images/detecteduuid.png)
+  ![](./images/detecteduuid.png style="zoom:50%;" )
 
 
 
