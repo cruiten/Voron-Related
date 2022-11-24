@@ -3,13 +3,13 @@
 [[Back to table of contents]](../README.md)
 
 ### Steps I performed:
- - [Build Klipper firmware for SB2040](#Build Klipper firmware for SB2040)
+ - [Build Klipper firmware for SB2040](#Build-Klipper-firmware-for-SB2040)
 	 - I use a UTOC-1, I don't use my Octopus as a CAN Bridge...
 	 - Please be aware that CanBoot is not part of these notes
-	 - However, I added CanBoot on the SB2040 at a later date...
- - [Burn Klipper firmware on SB2040](#Burn Klipper firmware on SB2040)
- - [Configure CAN networking on the RPi](#Connect SB2040 and establish/configure CAN network)
- - [Update Klipper printer configuration](#Update Klipper printer configuration)
+	 - However, I added CanBoot on the SB2040 at a later date (Details on that [here](./install_configure_canboot.md))
+ - [Burn Klipper firmware on SB2040](#Burn-Klipper-firmware-on-SB2040)
+ - [Configure CAN networking on the RPi](#Connect-SB2040-and-establish/configure-CAN-network)
+ - [Update Klipper printer configuration](#Update-Klipper-printer-configuration)
 ----
 #### Build Klipper firmware for SB2040
 
