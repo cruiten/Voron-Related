@@ -47,7 +47,7 @@
 
 - If all went well, then you will see something like this:
 
-  ​	<img src="./images/CanBootDeploymentMakeResult.png" style="zoom:25%;" />
+  ​	<img src="./images/CanBootDeploymentMakeResult.png" width="50%" />
 
   - As you can see, this creates three files: `out/canboot.bin`, `out/canboot.uf2`, and `out/deployer.bin` which is the CanBoot Deployment Application
   
