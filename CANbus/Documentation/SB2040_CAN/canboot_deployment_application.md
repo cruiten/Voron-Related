@@ -12,11 +12,11 @@
 
 ### Steps I performed:
 
-[Configure and make CanBoot](#Configure and make CanBoot)
+[Configure and make CanBoot](#Configure-and-make-CanBoot)
 
-[Flash Canboot Deployment Application](#Flash CanBoot Deployment Application)
+[Flash Canboot Deployment Application](#Flash-CanBoot-Deployment-Application)
 
-[Next steps]()
+[Next steps](#Next-Steps)
 
 -----
 
