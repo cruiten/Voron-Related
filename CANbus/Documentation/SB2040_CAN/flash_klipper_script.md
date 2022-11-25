@@ -14,6 +14,8 @@ The following steps are for a script to flash my Octopus 1.1 and my SB2040.
 
 -----
 
+[[Back to table of contents]](../README.md)
+
 Please be aware that this script references the IDs of my Octopus and SB2040 MCUs...
 
 - SSH into your RPi
@@ -95,3 +97,5 @@ Once you have successfully completed the script, you can comment out the two lin
 
 
 If you comment out those two lines, you will not be prompted with the menus, and the Klipper images will be built based on the settings for each MCU that you saved when you did use the menus.
+
+[[Back to table of contents]](../README.md)

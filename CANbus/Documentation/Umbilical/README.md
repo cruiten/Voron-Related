@@ -1,5 +1,7 @@
 # CAN bus umbilical
 
+[[Back to table of contents]](../README.md)
+
 <img src="./Images/Printer.jpg" width="50%" height="50%" alt="Printer"/>
 
 ## Why?
@@ -80,3 +82,8 @@ The only thing left to do was to use my Remington Industries [PTFE wires](https:
 Here is a wiring diagram of how I connected the SB2040 to the UTOC-1:
 
   <img src="./Images/CAN Bus wiring.png" width="50%" height="50%" alt="Wiring Diagram"/>
+
+&nbsp;
+
+[[Back to table of contents]](../README.md)
+
