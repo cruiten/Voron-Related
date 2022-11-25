@@ -93,7 +93,7 @@
   python3 flash_can.py -i can0 -q
   ```
 
-  ![](./images/detecteduuid.png style="zoom:50%;" )
+  ​	<img src="./images/detecteduuid.png" width="50%" />
 
 
 
