@@ -138,7 +138,7 @@ Well, with CanBoot, just have to do steps 7 and 8...
 
 #### Build Klipper for the SB2040
 
-At this point in the process, the pre-existing Klipper image has been partially overwritted by the CanBoot bootloader.
+‼️ At this point in the process, the pre-existing Klipper image has been partially overwritted by the CanBoot bootloader. ‼️
 
 This means that we have to rebuild Klipper, and we need to address the fact that we now have a bootloader on the SB2040, whereas before we did not.
 
@@ -183,6 +183,46 @@ This is accomplished by assigning a value to the `Bootloader offset`.
 - Make a note of the CAN UUID that you defined in your Klipper printer configuration file
 
   - My CAN UUID is `d063055012c2`
+
+
+<details>
+<summary>⁉️ Click here if you do not know your UUID ⁉️</summary>
+<p>
+	
+-----
+#### Don't know the UUID for the SB2040?
+
+- Execute the following commands:
+	```sh
+   sudo service klipper stop
+   cd ~/CanBoot/scripts
+   python3 flash_can.py -i can0 -q
+	```
+
+- If this did not return the UUID for the SB2040 then you can try the next step...
+	
+#### Those commands did not display the UUID of the SB2040?
+
+##### You can use CanBoot to find out this information by following these steps:
+
+- To do this you must make sure that CanBoot was successfully flashed to your SB2040
+- Next, make sure that Klipper is not running on the RPi by executing the following command:
+	```sh
+   sudo service klipper stop
+	```
+- Make sure that you have a valid Klipper `firmware.bin` image file located in the `~/klipper/out` directory
+- The next step is where we "trick" CanBoot to display the UUID, by invoking CanBoot to flash Klipper using a "dummy" target UUID value of '15f343b33aaa':
+	```sh
+   cd ~/CanBoot/scripts
+   python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u 15f343b33aaa
+	```
+- The script will report an error, but directly before the error is reported it should also list the UUID for the SB2040:
+	<img src="./images/CanBootUUIDTrick.png" alt="CanBootUUIDTrick"  />
+- Make a note of this UUID for the next steps
+-----
+</p>
+</details>
+
 
 - Make sure that Klipper is not running on the RPi by executing the following command:
 
