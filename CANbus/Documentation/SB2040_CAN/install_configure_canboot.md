@@ -206,6 +206,7 @@ This is accomplished by assigning a value to the `Bootloader offset`.
 ##### You can use CanBoot to find out this information by following these steps:
 
 - To do this you must make sure that CanBoot was successfully flashed to your SB2040
+	- If you got here it is assumed that you successfully flashed CanBoot by following the previous steps on this page
 - Next, make sure that Klipper is not running on the RPi by executing the following command:
 	```sh
    sudo service klipper stop
