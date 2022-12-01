@@ -1,6 +1,6 @@
 # SB2040 Fan Cover
 
-<img src="./Images/SB2040FanCover.jpeg" width="50%" height="50%" alt="Z Chain Guide with Thermistor"/>
+<img src="./Images/SB2040FanCover.jpg" width="50%" height="50%" alt="Z Chain Guide with Thermistor"/>
 
 &nbsp;
 
