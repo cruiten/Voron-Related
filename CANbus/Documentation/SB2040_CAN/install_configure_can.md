@@ -115,6 +115,11 @@ sudo python ~/klipper/scripts/canbus_query.py can0
 ``
 sudo apt install python-can
 ``
+(If this command does not work for you, then try
+``
+pip install python-can
+``
+)
 After installing the missing module, re-execute command `sudo ~/klipper/scripts/canbus_query.py can0`
 
 Make a note of the UUID, because you will need it for the Klipper configuration.
